@@ -30,7 +30,10 @@ public class Ejemplo08 {
             System.out.printf(" Lo sentimos hay un error de tipo %s\n", e);
         
         }
-        
+   /*
+    Utilizamos un solo exception que capture todos los errores puesto que este 
+    es el que abarca todos 
+    */     
         
                
     }
