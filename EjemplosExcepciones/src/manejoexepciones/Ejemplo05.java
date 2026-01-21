@@ -18,7 +18,7 @@ public class Ejemplo05 {
         int resultado = 0;
         try{
             Scanner entrada = new Scanner(System.in);
-            System.out.println("Ingrese valor 1:"); // 20
+            System.out.println("Ingrese valor 1:"); // 207
             int valor1 = entrada.nextInt(); // se espera un valor entero 
             System.out.println("Ingrese valor 2:"); // 4
             int valor2 = entrada.nextInt(); // se espera un valor entero // 0

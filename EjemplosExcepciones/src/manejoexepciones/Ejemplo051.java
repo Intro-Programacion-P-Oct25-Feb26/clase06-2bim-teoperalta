@@ -28,6 +28,11 @@ public class Ejemplo051 {
 
                 System.out.printf("Resultado %d\n", resultado);
                 bandera = false;
+    /*
+    mediante un ciclo repetitivo evaluamos si los datos ingresados son validos 
+    y ejecutamos una operación, si no son validos vamos al catch y ejecutamos 
+    lo que esta dentro para luego volver a repetir el try, hasta tener valores válidos            
+    */
             } catch (InputMismatchException inputMismatchException) {
 
                 System.out.printf("Existe un error de tipo %s\n",

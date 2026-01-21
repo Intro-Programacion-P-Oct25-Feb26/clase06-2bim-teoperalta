@@ -20,7 +20,7 @@ public class Ejemplo07 {
             System.out.println("Ingrese valor 1:");
             int valor1 = entrada.nextInt(); // se espera un valor entero
             System.out.println("Ingrese valor 2:");
-            int valor2 = entrada.nextInt(); // se espera un valor entero
+            int valor2 = entrada.nextInt(); // se espera un valor 7entero
             int resultado = valor1 / valor2;
             double resultado2 = (double)resultado;
             System.out.printf("Resultado %d", resultado2);
